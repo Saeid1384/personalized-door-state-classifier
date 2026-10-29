@@ -6,7 +6,7 @@ A personalized computer-vision experiment for classifying a door as **Open** or 
 
 ## Demo
 
-<!-- Add your demo GIF or video link here. -->
+<!-- Add your demo GIF here when ready. You can link the GIF to the full demo video. -->
 
 ## At a glance
 
@@ -32,9 +32,7 @@ The public dataset's license and terms should be checked before reusing or redis
 - Fine-tuning an EfficientNet-B0 classifier with two output classes.
 - Image augmentation during training, including horizontal flips, small rotations, and brightness/contrast variation.
 - AdamW optimizer and cross-entropy loss.
-- Validation-based checkpoint selection and test-set evaluation in the experiment notebook when the private data and required initial checkpoint are available.
-
-The notebook is included as a record of the training and evaluation workflow. It requires the private dataset and an initial checkpoint that are not included here, so it is **not a one-click reproducible run**.
+- The notebook documents the training and evaluation workflow; the private dataset and initial checkpoint required to rerun the experiment are not included.
 
 ## Limitations
 
@@ -42,6 +40,6 @@ The reported results are specific to the current experiment and target setup. Pe
 
 ## Repository contents
 
-- [`notebooks/personalized_door_state_classifier.ipynb`](notebooks/personalized_door_state_classifier.ipynb) — training and evaluation notebook.
-- [`reports/technical_report.md`](reports/technical_report.md) — concise technical report.
+- [`personalized_door_state_classifier.ipynb`](personalized_door_state_classifier.ipynb) — training and evaluation notebook.
+- [`technical_report.md`](technical_report.md) — concise technical report.
 - [`requirements.txt`](requirements.txt) — core Python packages used by the notebook.
