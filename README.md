@@ -6,9 +6,7 @@ A personalized computer-vision experiment for classifying a door as **Open** or 
 
 ## Demo
 
-![Personalized door state classifier demo](InShot_20261030_120132873.gif)
-
-[Open the full-size demo GIF](InShot_20261030_120132873.gif)
+![Personalized door state classifier demo](https://raw.githubusercontent.com/Saeid1384/personalized-door-state-classifier/main/InShot_20261030_120132873.gif)
 
 ## At a glance
 
