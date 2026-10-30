@@ -6,9 +6,7 @@ A personalized computer-vision experiment for classifying a door as **Open** or 
 
 ## Demo
 
-![Door state classifier demo preview](demo-preview.jpg)
-
-*This repository currently includes a still preview image. The animated GIF can be added when the original animated file is available.*
+<!-- Demo GIF will be added here. -->
 
 ## At a glance
 
